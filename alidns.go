@@ -3,7 +3,7 @@ package alidns
 import (
 	caddy "github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/libdns/alidns"
+	"github.com/omengye/alidns"
 )
 
 // Provider wraps the provider implementation as a Caddy module.
@@ -32,11 +32,10 @@ func (p *Provider) Provision(ctx caddy.Context) error {
 
 // UnmarshalCaddyfile sets up the DNS provider from Caddyfile tokens. Syntax:
 //
-// alidns {
-//     access_key_id "<access_key_id>"
-//     access_key_secret "<access_key_secret>"
-// }
-//
+//	alidns {
+//	    access_key_id "<access_key_id>"
+//	    access_key_secret "<access_key_secret>"
+//	}
 func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 	for d.Next() {
 		if d.NextArg() {

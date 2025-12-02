@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.2
-	github.com/libdns/alidns v1.0.5-libdns.v1.beta1
+	github.com/omengye/alidns v0.0.0-20251202075257-a5640c7ef52d
 )
 
 require (
@@ -44,5 +44,3 @@ require (
 	golang.org/x/tools v0.34.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 )
-
-replace github.com/libdns/alidns => github.com/omengye/alidns v0.0.0-20251202062818-f9e06cd1eff7

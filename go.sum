@@ -85,6 +85,7 @@ github.com/neelance/astrewrite v0.0.0-20160511093645-99348263ae86/go.mod h1:kHJE
 github.com/neelance/sourcemap v0.0.0-20151028013722-8c68805598ab/go.mod h1:Qr6/a/Q4r9LP1IltGz7tA7iOK1WonHEYhu1HRBA7ZiM=
 github.com/omengye/alidns v0.0.0-20251202062818-f9e06cd1eff7 h1:6MuQQWKA+LwxnilzDUhxcTNPgwb0e0FSipi+0F622BM=
 github.com/omengye/alidns v0.0.0-20251202062818-f9e06cd1eff7/go.mod h1:RECwyQ88e9VqQVtSrvX76o1ux3gQUKGzMgxICi+u7Ec=
+github.com/omengye/alidns v0.0.0-20251202075257-a5640c7ef52d/go.mod h1:As6i7DZFbOgJed8lpwSf56G/dfiboLYLEHe4PuxWFqM=
 github.com/openzipkin/zipkin-go v0.1.1/go.mod h1:NtoC/o8u3JlF1lSlyPNswIbeQH9bJTmOf0Erfk+hxe8=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
