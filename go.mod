@@ -1,4 +1,4 @@
-module github.com/caddy-dns/alidns
+module github.com/omengye/caddy-alidns
 
 go 1.25.0
 
